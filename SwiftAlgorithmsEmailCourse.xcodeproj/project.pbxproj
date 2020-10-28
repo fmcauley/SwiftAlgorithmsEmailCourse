@@ -10,6 +10,8 @@
 		F00D9A7B2549964300D419F7 /* SwiftAlgorithmsEmailCourse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00D9A712549964300D419F7 /* SwiftAlgorithmsEmailCourse.framework */; };
 		F00D9A802549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D9A7F2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.swift */; };
 		F00D9A822549964300D419F7 /* SwiftAlgorithmsEmailCourse.h in Headers */ = {isa = PBXBuildFile; fileRef = F00D9A742549964300D419F7 /* SwiftAlgorithmsEmailCourse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00D9A8E2549977900D419F7 /* DayOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D9A8D2549977900D419F7 /* DayOneTests.swift */; };
+		F00D9A92254997B500D419F7 /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D9A91254997B500D419F7 /* DayOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 		F00D9A7A2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAlgorithmsEmailCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00D9A7F2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithmsEmailCourseTests.swift; sourceTree = "<group>"; };
 		F00D9A812549964300D419F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00D9A8D2549977900D419F7 /* DayOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneTests.swift; sourceTree = "<group>"; };
+		F00D9A91254997B500D419F7 /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
+		F00D9A9525499C4A00D419F7 /* DayOneAnswer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DayOneAnswer.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 		F00D9A672549964300D419F7 = {
 			isa = PBXGroup;
 			children = (
+				F00D9A9525499C4A00D419F7 /* DayOneAnswer.md */,
 				F00D9A732549964300D419F7 /* SwiftAlgorithmsEmailCourse */,
 				F00D9A7E2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests */,
 				F00D9A722549964300D419F7 /* Products */,
@@ -73,6 +79,7 @@
 			children = (
 				F00D9A742549964300D419F7 /* SwiftAlgorithmsEmailCourse.h */,
 				F00D9A752549964300D419F7 /* Info.plist */,
+				F00D9A91254997B500D419F7 /* DayOne.swift */,
 			);
 			path = SwiftAlgorithmsEmailCourse;
 			sourceTree = "<group>";
@@ -82,6 +89,7 @@
 			children = (
 				F00D9A7F2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.swift */,
 				F00D9A812549964300D419F7 /* Info.plist */,
+				F00D9A8D2549977900D419F7 /* DayOneTests.swift */,
 			);
 			path = SwiftAlgorithmsEmailCourseTests;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				TargetAttributes = {
 					F00D9A702549964300D419F7 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					F00D9A792549964300D419F7 = {
 						CreatedOnToolsVersion = 12.0;
@@ -194,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F00D9A92254997B500D419F7 /* DayOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00D9A802549964300D419F7 /* SwiftAlgorithmsEmailCourseTests.swift in Sources */,
+				F00D9A8E2549977900D419F7 /* DayOneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +351,7 @@
 		F00D9A862549964300D419F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -357,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fm.SwiftAlgorithmsEmailCourse;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -364,6 +377,7 @@
 		F00D9A872549964300D419F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -388,6 +402,7 @@
 		F00D9A892549964300D419F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
@@ -406,6 +421,7 @@
 		F00D9A8A2549964300D419F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = T2XWZFPH38;
