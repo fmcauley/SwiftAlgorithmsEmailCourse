@@ -34,6 +34,7 @@
 		F00D9A8D2549977900D419F7 /* DayOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneTests.swift; sourceTree = "<group>"; };
 		F00D9A91254997B500D419F7 /* DayOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
 		F00D9A9525499C4A00D419F7 /* DayOneAnswer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DayOneAnswer.md; sourceTree = "<group>"; };
+		F00D9A962549CBA200D419F7 /* DayTwo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DayTwo.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		F00D9A672549964300D419F7 = {
 			isa = PBXGroup;
 			children = (
+				F00D9A962549CBA200D419F7 /* DayTwo.md */,
 				F00D9A9525499C4A00D419F7 /* DayOneAnswer.md */,
 				F00D9A732549964300D419F7 /* SwiftAlgorithmsEmailCourse */,
 				F00D9A7E2549964300D419F7 /* SwiftAlgorithmsEmailCourseTests */,
